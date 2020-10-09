@@ -1,0 +1,128 @@
+
+.container{
+    width: 800px;
+    margin: auto; /*centrado */
+}
+
+header{ /*Ponerlos en misma fila*/
+    display: flex;
+}
+.logo{
+    flex: 1;
+}
+.title{
+    flex: 4;
+    text-align: right; /*alinear a la derecha*/
+    text-transform: uppercase;
+}
+
+.items-container{
+    display: flex;
+    justify-content: space-between; /*separa los ítems*/
+}
+.item{
+    text-align: center;
+}
+
+@font-face{
+    font-family: "Main_title";
+    src: url(fonts\Lato-Hairline.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "Text";
+    src: url(fonts\Lato-Light.ttf)  format("truetype");
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    font-family: Text, sans-serif;
+}
+
+
+
+.title > h1{
+    font-family: "Main_title", sans-serif;
+    font-size: 2.5rem;
+    color: #bcbbbb;
+    font-weight: lighter;
+}
+
+.title > h3{
+    font-size: small;
+    color: #bcbbbb;
+
+}
+
+h2{
+    font-size: 1.6rem;
+    font-weight: lighter;
+    color: #bcbbbb;
+}
+
+.item > h3{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    color: #747704;
+}
+
+.item > a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    color: #bcbbbb;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title > h1{
+    padding-top: 1.5rem;
+}
+
+hr{
+    border: thin solid #bcbbbb;
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 02.5rem;
+}
+
+.title > h1{
+    padding-top: 1rem;
+}
+
+body{
+    padding: 1rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 400px){
+
+    .items-container{
+        flex-direction: column;
+    }
+    .item{
+        width: 200px;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    h2{
+        text-align: center;
+        padding-left: 0px;
+        font-size: 2rem;
+    }
+    .logo{
+        padding-top: 1.1rem;
+    }
+}
