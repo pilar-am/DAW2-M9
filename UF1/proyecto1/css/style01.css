@@ -1,0 +1,36 @@
+* {
+    outline: 1px solid red !important;
+}
+body{
+    background-color: honeydew;
+}
+.content {
+    display: flex;
+    
+}
+.image {
+    flex: 1;
+    width: 750px;
+}
+  .description {
+    flex: 2;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-right: 2em;
+}
+img {
+    width: 100%;
+    width: 750px;
+}
+.title{
+    text-align: center;
+    margin-right: 10em;
+    margin-left: 10em;
+    background-color: black;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 50px;
+}
