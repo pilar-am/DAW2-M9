@@ -1,0 +1,90 @@
+/* ------------------------------------------------- */
+/* Main styles                                       */
+/* ------------------------------------------------- */
+
+* {
+    margin : 0px ;
+    padding : 0px ;
+}
+body {
+    margin : 0.5rem ;
+}
+.main-container{
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.title{
+    text-align: right;
+    text-transform: uppercase;
+}
+.item {
+    text-align: center;
+}
+.title > h1{
+    font-size: 2.5rem;
+    color: #bcbbbb;
+}
+.title > h3{
+    font-size: small;
+}
+h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #bcbbbb;
+}
+.item >h3{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #bcbbbb;
+}
+.item > a{
+    text-decoration: none;
+font-weight: bold;
+font-size: smaller;
+color: #bcbbbb;
+}
+
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.title > h1{
+    padding-top: 1.5rem;
+}
+hr{
+    border: thin solid  #bcbbbb;
+    margin-bottom: 1.5rem;
+}
+h2{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+body{
+    padding: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+
+    .items-container {
+        flex-direction: column;
+    }
+    .item {
+        width: 200px;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    h2 {
+        text-align: center;
+        padding-left: 0px;
+        font-size: 2rem;
+    }
+    .logo {
+        padding-top: 1.1rem;
+    }
+}
