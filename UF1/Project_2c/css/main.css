@@ -1,0 +1,27 @@
+/* ------------------------------------------------- */
+/* Main styles                                       */
+/* ------------------------------------------------- */
+
+/**{
+    border: 1px solid red !important;
+}*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+hr{
+    border: thin solid  #bcbbbb;
+    
+}
+.container{
+    max-width: 800px;
+}
+.item > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    color: #bcbbbb;
+}
