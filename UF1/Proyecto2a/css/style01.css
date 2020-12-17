@@ -26,12 +26,12 @@ header{ /*Ponerlos en misma fila*/
 
 @font-face{
     font-family: "Main_title";
-    src: url(fonts\Lato-Hairline.ttf) format("truetype");
+    src: url(../fonts/Lato-Hairline.ttf) format("truetype");
 }
 
 @font-face{
     font-family: "Text";
-    src: url(fonts\Lato-Light.ttf)  format("truetype");
+    src: url(../fonts/Lato-Light.ttf)  format("truetype");
 }
 
 .container {
